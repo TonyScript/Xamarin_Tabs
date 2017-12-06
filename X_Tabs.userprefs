@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}|Default">
+  <MonoDevelop.Ide.ItemProperties.X__Tabs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6898598F-C1C6-4480-9609-B0CCA1E03A30" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="X_Tabs/Application/FourthViewController.cs">
+    <Files>
+      <File FileName="X_Tabs/Application/FourthViewController.cs" Line="85" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

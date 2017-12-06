@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>X_Tabs</RootNamespace>
+    <AssemblyName>X_Tabs</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>61622</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\First.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\First.imageset\vector.pdf" />
+    <ImageAsset Include="Assets.xcassets\Second.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\Second.imageset\vector.pdf" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="MainFrame\" />
+    <Folder Include="Application\" />
+    <Folder Include="Storyboard\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Storyboard\BaseViewController.xib" />
+    <InterfaceDefinition Include="Storyboard\FourthViewController.xib" />
+    <InterfaceDefinition Include="Storyboard\LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Storyboard\Main.storyboard" />
+    <InterfaceDefinition Include="Storyboard\ThirdViewController.xib" />
+    <InterfaceDefinition Include="Storyboard\BaseNavigationViewController.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entitlements.plist" />
+    <None Include="Resources\Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\BaseViewController.cs" />
+    <Compile Include="Application\BaseViewController.designer.cs">
+      <DependentUpon>BaseViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application\FirstViewController.cs" />
+    <Compile Include="Application\FirstViewController.designer.cs">
+      <DependentUpon>FirstViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application\FourthViewController.cs" />
+    <Compile Include="Application\FourthViewController.designer.cs">
+      <DependentUpon>FourthViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application\SecondViewController.cs" />
+    <Compile Include="Application\SecondViewController.designer.cs">
+      <DependentUpon>SecondViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application\ThirdViewController.cs" />
+    <Compile Include="Application\ThirdViewController.designer.cs">
+      <DependentUpon>ThirdViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrame\AppDelegate.cs" />
+    <Compile Include="MainFrame\Main.cs" />
+    <Compile Include="MainFrame\BaseNavigationViewController.cs" />
+    <Compile Include="MainFrame\BaseNavigationViewController.designer.cs">
+      <DependentUpon>BaseNavigationViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Application\IAnimal.cs" />
+    <Compile Include="Application\Monkey.cs" />
+    <Compile Include="Application\LineLayout.cs" />
+    <Compile Include="Application\CircleLayout.cs" />
+    <Compile Include="Application\GridLayout.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Surface Hub Wallpaper.jpg" />
+    <BundleResource Include="Resources\15315838.jpg" />
+    <BundleResource Include="Resources\monkey.png" />
+    <BundleResource Include="Resources\placeholder.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

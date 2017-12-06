@@ -1,0 +1,11 @@
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/obj/iPhoneSimulator/Debug/optimized/monkey.png
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/obj/iPhoneSimulator/Debug/optimized/placeholder.png
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/obj/iPhoneSimulator/Debug/optimized/
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/bin/iPhoneSimulator/Debug/X_Tabs.exe.mdb
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/bin/iPhoneSimulator/Debug/X_Tabs.exe
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/obj/iPhoneSimulator/Debug/X_Tabs.exe
+/Users/xxpang/Documents/WorkSpace/X_Tabs/X_Tabs/obj/iPhoneSimulator/Debug/X_Tabs.exe.mdb

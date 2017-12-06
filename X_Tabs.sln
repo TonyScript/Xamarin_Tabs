@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X_Tabs", "X_Tabs\X_Tabs.csproj", "{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}.Release|iPhone.Build.0 = Release|iPhone
+		{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B16F8C39-8E3E-4A0E-B1C3-E82AC70B2B0B}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
